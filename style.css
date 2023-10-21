@@ -1,0 +1,115 @@
+
+.header {
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.logo {
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+
+.login {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 170px;
+}
+
+.login-label {
+    color: #fff;
+    font-size: 11px;
+}
+
+.login-controls {
+    margin-left: 115px;
+}
+
+.forgetten {
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d5;
+}
+
+.sub-btn {
+    background: #4267b2;
+    color: #fff;
+    border-color: #29487d;
+    height: 20px;
+    cursor: pointer;
+}
+
+.sub-btn:hover {
+    background: red;
+}
+
+
+.left-section {
+    width: 100%;
+    float: none;
+    padding: 10px; 
+}
+
+.right-section {
+    width: 100%;
+    float: none;
+    padding: 10px; 
+}
+
+.main-body {
+    background: rgb(123, 120, 120);
+    background: linear-gradient(90deg, rgba(124, 132, 147, 0.578) 0%, rgba(227, 230, 235, 0.578) 35%, rgb(227, 230, 235, 0.578) 100%, rgba(227,230,235,0.578) 100%);
+    width: 100%;
+    min-height: 1000px; 
+}
+
+.image {
+    width: 100%;
+    float: none;
+}
+
+.para {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+h1 {
+    font-style: bold;
+}
+
+
+@media (max-width: 768px) {
+    .login-controls {
+        margin-left: 0; 
+    }
+
+    .logo-text {
+        margin-left: 0; 
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+}
+
+
